@@ -1,15 +1,15 @@
 public class Suma {
 
-    private int num1;
-    private int num2;
+    private int numero1;
+    private int numero2;
 
     public Suma(int n1, int n2){
-        num1 = n1;
-        num2 = n2;
+        numero1 = n1;
+        numero2 = n2;
     }
 
     public int sumar(){
-        int resultado = num1 + num2;
+        int resultado = numero1 + numero2;
         return resultado;
     }
 
